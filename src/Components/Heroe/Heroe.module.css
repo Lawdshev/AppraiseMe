@@ -1,0 +1,113 @@
+.container{
+    width: 100%;
+    height: 320px;
+    background:url(../../assets/pexels-thirdman-5060973\(1\)\ 1.png);
+    background-repeat:no-repeat;
+    background-size:cover; 
+    background-position:center;
+    margin-top: 45px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 25, 25, 0.49);
+    display: flex;
+    flex-direction: row;
+    align-items: center;  
+    justify-content: center;
+    padding: 20px;
+}
+.head{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.texts{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 500;
+}
+@media(min-width: 768px){
+    .container{
+        height: 75vh;
+        margin-top: 0;
+    }
+    .overlay{
+        padding: 100px;
+    }
+    .head{
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    .texts{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+@media(min-width: 1200px){
+    .container{
+        height: 120vh;
+    }
+    .overlay{
+        justify-content: flex-start;
+        padding: 0;
+    }
+    .head{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 24px;
+    }
+    .texts{
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width:1536px){
+    .container{
+        height: 110vh;
+        margin-top: 0;
+        
+    }
+    .head{
+        font-size: calc(40px + 1.1vw);
+        margin-bottom: 30px;
+    }
+    .texts{
+        font-size: calc(24px + 1.1vw);
+        margin-top: 3%;
+    }
+    .joinus{
+        font-size:calc(16px + 1.1vw)  ;
+    }
+}
+
+/* @media only screen  and (max-device-width: 1000px) and (orientation: landscape){
+    .container{
+      margin-top: 0;
+      height: 200vh;
+    }
+    .smallNav{
+        display: none;
+    }
+    .largeNav{
+        display: flex;
+    }
+    .contTexts{
+        height: 60%;
+    }
+    .midText{
+        line-height: 150%;
+    }
+} */
+

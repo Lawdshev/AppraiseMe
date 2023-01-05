@@ -1,3 +1,4 @@
+
 .nav{
   padding-top: 1rem/* 8px */;
   padding-bottom: 1rem/* 8px */;
@@ -27,7 +28,7 @@
   width: 50%;
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
+  color: white;
   font-family: 'Open Sans', "sans serif";
 }
 
@@ -53,7 +54,7 @@
 
 @media screen and (max-width:767px){
   .nav {
-    background-color: black;
+    background-color: rgb(68, 63, 63);
     width: 50%;
     height: 100vh;
     display: flex;
@@ -91,15 +92,13 @@
     margin-right: 50%;
   }
 
+
+
   .joinUsBtn{
     width: 100px;
     margin-right: 50%;
 
   }
-}
-
-@media screen and (min-width:1536px){
-
 }
 
 
@@ -110,4 +109,10 @@
   .nav-menu{
     height: 100vh;
   }
+  .smallNav{
+    display: none;
+}
+.largeNav{
+    display: flex;
+}
 }
