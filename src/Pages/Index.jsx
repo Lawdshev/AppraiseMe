@@ -94,7 +94,7 @@ function Index() {
       <div className='h-[100px] md:h-[200px] xl:h-[25vh] bg-[#9BE150] flex items-center justify-center'>
         <div className='lg:w-[90%] xl:w-[80%] w-full h-[40%] md:h-[70%] lg:h-[70%] text-[#ffffff] justify-between font-openSans font-bold lg:text-[24px] lg:leading-[40px] md:text-[20px] md:leading-[40px] text-[10px] leading-[20px] mx-auto flex flex-col text-center '>
           <p className={`text-center w-[75%] mx-auto ${indexStyles.onboard}`}>AppraiseMe aids objectivity in Employee Appraisals, Promotes and Rewards Systems.</p>
-          <p className={`text-center ${indexStyles.onboard}`}>Get Onboard NOW!</p>
+          <p className={`text-center ${indexStyles.onboard}`}> Get Onboard NOW! </p>
         </div>
       </div>
 
