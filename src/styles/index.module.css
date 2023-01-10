@@ -149,7 +149,7 @@
         line-height: calc(19.6px + 1vw);
     }
 }
-@media screen and (min-width:2200px){
+/* @media screen and (min-width:2200px){
     .cardHead{
         font-size: calc(15px + 0.5vw) ;
     }
@@ -159,12 +159,12 @@
     .testimonialName{
         font-size: calc(20px + 0.7vw);
     }
-    /* .testimonies{
+    .testimonies{
         font-size: calc(16px + 0.5vw);
         line-height: calc(32px + 0.5vw);
-    }  */
+    } 
 }
-/* @media screen and (min-width:3500px){
+@media screen and (min-width:3500px){
     .cardHead{
         font-size: calc(15px + 0.7vw) ;
     }
