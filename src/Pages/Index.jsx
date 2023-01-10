@@ -91,7 +91,7 @@ function Index() {
     <div>
       <Heroe/>
       {/* Get on Board */}
-      <div className='h-[200px] xl:h-[25vh] bg-[#9BE150] flex items-center justify-center'>
+      <div className='h-[100px] md:h-[200px] xl:h-[25vh] bg-[#9BE150] flex items-center justify-center'>
         <div className='lg:w-[90%] xl:w-[80%] w-full h-[40%] md:h-[70%] lg:h-[70%] text-[#ffffff] justify-between font-openSans font-bold lg:text-[24px] lg:leading-[51px] md:text-[20px] md:leading-[40px] text-[10px] leading-[20px] mx-auto flex flex-col text-center '>
           <p className={`text-center ${indexStyles.onboard}`}>AppraiseMe aids objectivity in Employee Appraisals, Promotes and Rewards <br /> Systems.</p>
           <p className={`text-center ${indexStyles.onboard}`}>Get Onboard NOW!</p>
@@ -99,7 +99,7 @@ function Index() {
       </div>
 
       {/* Our features */}
-    <div className=' bg-[#ffffff] lg:h-[1250px] xl:h-[100vh] flex items-end mb-[10%] md:mb-[5%] lg:mb-[0%] my-[3%] lg:my-[0%] '>
+    <div className=' bg-[#ffffff] lg:h-[1250px] xl:h-[100vh] flex items-end mb-[10%] md:mb-[5%] lg:mb-[0%] my-[3%] lg:my-[0%] ' >
         <div className='h-[90%] w-full mt-[10%] lg:mt-[0%] flex flex-col justify-aroundround'>
           <div className='text-center text-[#464545] font-openSans'>
               <h1 className={` text-[26px] font-[800] leading-[54px] md:text-[28px] md:leading-[40px] lg:text-[32px] lg:leading-[54px] text-[#464545]  ${indexStyles.featHead}`}>Our Features</h1>
@@ -116,7 +116,7 @@ function Index() {
       </div>
 
       {/* our mission */}
-      <div className={`${indexStyles.missionDiv} lg:h-[100vh] flex items-center justify-center`}>
+      <div className={`${indexStyles.missionDiv} lg:h-[1300px] xl:h-[100vh] 2xl:h-[80vh] flex items-center justify-center`} id='about'>
           <div className='w-[90%] xl:h-[80%] lg:h-[85%] flex justify-between mb-[10%] lg:mb-0 flex-col-reverse xl:flex-row px-1 py-8 lg:py-0'>
               <div className='bg-blue-800 w-full h-[300px] md:h-[500px] lg:h-[600px] xl:h-full xl:w-[50%] flex items-center justify-center rounded-[5px] mt-[3%] xl:mt-0'>
                  <div className='bg-[#9BE150] text-white text-[27px] h-[83px] w-[83px] rounded-full flex items-center justify-center'>
@@ -164,7 +164,7 @@ function Index() {
           </div>
         </div>
         <div className='flex flex-col xl:flex-row h-full xl:w-[50%] justify-start items-center'>
-          <div className={`w-[80%] h-full md:h-[70%] xl:h-[21%] flex flex-col xl:flex-row justify-between items-center xl:items-start`}>
+          <div className={`w-[80%] h-full md:h-[70%] xl:h-[21%] flex flex-col xl:flex-row justify-between items-center xl:items-start `}>
             <div className= {`h-full w-[19%] xl:w-[20%] ${indexStyles.businessCont}`} >
               <div className='w-full h-[50%] md:h-full rounded-full bg-white flex justify-center items-center'>
                 <img src={book} alt="" className='w-[50%]'  /> 
@@ -175,11 +175,10 @@ function Index() {
             </div>
           </div>
         </div>
-
       </div>
       
       {/* blog */}
-       <div className=' flex flex-col items-center justify-around mt-8'>
+       <div className=' flex flex-col items-center justify-around mt-8' id='blog'>
             <div className='flex flex-col items-center justify-center '>
                 <h3 className={`text-[#464545] text-[26px] font-[800] font-OpenSans leading-[54px] ${indexStyles.blogHead}`}>Blog</h3>
                 <h2 className={`text-[18px] md:text-[24px] font-[700] font-OpenSans leading-[31px] ${indexStyles.blogSubHead}`}>Some of the latest news on our blog </h2>

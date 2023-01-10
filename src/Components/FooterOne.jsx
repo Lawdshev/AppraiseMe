@@ -3,7 +3,7 @@ import React from 'react';
 function FooterOne() {
   return (
     <>
-    <div className='flex flex-col h-[602px] mx-auto bg-black text-white overflow-x-hidden '>
+    <div className='flex flex-col h-[602px] mx-auto bg-black text-white overflow-x-hidden ' id='contact'>
         <div className='flex flex-col items-center justify-center py-2 lg:py-12'>
            <h1 className='font-extrabold text-[20px] leading-[36px] md:text-[30px] md:leading-[48px] lg:text-[36px] lg:leading-[54px] font-workSans' id='contact'>Contact Us</h1>
            <p id='inTouch' className='text-[#9BE150] text-[14px] leading-[20px] md:text-[20px] md:leading-[26px] lg:text-[24px] lg:leading-[30px] font-bold font-inter'>Keep in touch with Us</p>

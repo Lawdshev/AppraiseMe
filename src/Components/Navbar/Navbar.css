@@ -52,6 +52,7 @@
 
 
 
+
 @media screen and (max-width:767px){
   .nav {
     background-color: rgb(68, 63, 63);
@@ -114,5 +115,8 @@
 }
 .largeNav{
     display: flex;
+}
+.smCover{
+  display: none;
 }
 }

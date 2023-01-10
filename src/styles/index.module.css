@@ -1,6 +1,4 @@
-body {
-    background-color: ;
-}
+
 .business{
     background: url(../assets/aerial-view-business-team\ 1.png);
     background-position: center;
@@ -83,8 +81,8 @@ body {
     }
 
     .users{
-        font-size: calc(24px + 1vw) ;
-        line-height: calc(31px +  1vw);
+        font-size: calc(24px + 0.5vw) ;
+        line-height: calc(31px + 1vw);
     }
     
 }
@@ -131,12 +129,12 @@ body {
         line-height: calc(32px + 1vw);
     }
     .blogHead{
-        font-size: calc(36px + 1.1vw);
+        font-size: calc(36px + 0.8vw);
         font-weight: 800;
-        line-height: calc(54px + 1.1vw);
+        line-height: calc(54px + 0.8vw);
     }
     .blogSubHead{
-        font-size: calc(24px + 1.1vw);
+        font-size: calc(24px + 0.5vw);
         font-weight: 700;
         line-height: calc(30.5px + 1.1vw);
     }
@@ -175,7 +173,8 @@ body {
     }
 }
 
-@media only screen  and (max-device-width: 1000px) and (orientation: landscape){
+
+@media screen and (orientation:landscape) and (max-width: 900px){
     .featureCard{
         width: 30%;
     }
@@ -186,4 +185,5 @@ body {
     .businessCont div{
         height: 100%;
     }
+   
 }
