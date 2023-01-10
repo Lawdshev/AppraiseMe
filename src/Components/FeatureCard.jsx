@@ -5,7 +5,7 @@ import indexStyles from '../styles/index.module.css';
 
 function FeatureCard({head, text,img}) {
   return (
-    <div className={`${indexStyles.featureCard} w-[70%] h-[350px] md:h-[404px] md:w-[282px] xl:w-[20%] xl:h-[80%] 2xl:h-[70%] my-5 lg:my-0 mx-auto md:mx-0 flex pt-[2%]  items-center flex-col justify-around px-[0.5%]`}>
+    <div className={`${indexStyles.featureCard} w-[70%] h-[350px] md:h-[404px] md:w-[282px] xl:w-[20%] xl:h-[80%] 2xl:h-[70%] my-5 lg:my-0 mx-auto md:mx-0 flex pt-[2%] items-center flex-col justify-around px-[0.5%]`}>
         <div className='self-center'>
            <img src={img} className='w-[52px] xl:w-[3vw]'/>
         </div>

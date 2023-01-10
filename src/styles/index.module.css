@@ -67,7 +67,7 @@
     }
 }
 
-@media screen and (min-width:1500px){
+/* @media screen and (min-width:1500px){
     .cardHead{
         font-size: calc(15px + 0.3vw) ;
     }
@@ -85,7 +85,7 @@
         line-height: calc(31px + 1vw);
     }
     
-}
+} */
 /* @media screen and (min-width:1800px){
     .onboard{
         font-size: calc(24px + 1.1vw);
