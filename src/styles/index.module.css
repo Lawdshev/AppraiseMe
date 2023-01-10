@@ -67,15 +67,15 @@
     }
 }
 
-/* @media screen and (min-width:1500px){
-    .cardHead{
+@media screen and (min-width:1500px){
+    /* .cardHead{
         font-size: calc(15px + 0.3vw) ;
-    }
+    } */
     .cardText{
-        font-size:calc(16px + 0.3vw);
+        /* font-size:calc(16px + 0.3vw); */
         line-height: 200%;
     }
-    .testimonials{
+    /* .testimonials{
         font-size: calc(36px + 1vw);
         line-height: calc(54px + 1vw);
     }
@@ -83,9 +83,9 @@
     .users{
         font-size: calc(24px + 0.5vw) ;
         line-height: calc(31px + 1vw);
-    }
+    } */
     
-} */
+}
 /* @media screen and (min-width:1800px){
     .onboard{
         font-size: calc(24px + 1.1vw);
