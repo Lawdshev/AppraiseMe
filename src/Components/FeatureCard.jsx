@@ -15,4 +15,3 @@ function FeatureCard({head, text,img}) {
   )
 }
 export default FeatureCard;
-
