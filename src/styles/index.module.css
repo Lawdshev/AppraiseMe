@@ -122,6 +122,9 @@
     .missionCommentsText{
         font-size: calc(15px + 0.8vw);
     }
+    .testimonialName{
+        font-size: calc(20px + 0.5vw);
+    }
 
     /* .testimonialName{
         font-size: calc(20px + 0.4vw);
@@ -175,9 +178,7 @@
     .cardText{
         font-size:calc(16px + 0.5vw);
     }
-    .testimonialName{
-        font-size: calc(20px + 0.7vw);
-    }
+    
     .testimonies{
         font-size: calc(16px + 0.5vw);
         line-height: calc(32px + 0.5vw);
