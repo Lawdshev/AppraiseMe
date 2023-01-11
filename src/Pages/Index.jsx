@@ -42,7 +42,6 @@ const testimonials=[
   },
 ];
 
-
 // blog write up
 const blogs =[
   {
@@ -141,10 +140,10 @@ function Index() {
       </div>
 
        {/* testimonials */}
-       <div className={` mb-[5%] bg-yellow-500 flex flex-col ${indexStyles.testimonial} `}>
-        <h2 className={`${indexStyles.testimonials} text-[#464545] font-openSans text-[26px] font-[800] leading-[54px] mt-[5%] text-center`}>Testimonials</h2>
-        <p className={`${indexStyles.users} px-3 mt-[1.5%] font-openSans font-[700] text-[18px] leading-[31px] text-center text-[#1a1919A6] `}>See what some of our users are saying <br className='hidden md:block' /> about us</p>
-        <div className='flex flex-wrap h-[80%] justify-around mt-[10%] '>
+       <div className={`mb-[5%] flex flex-col ${indexStyles.testimonial}`}>
+        <h2 className={`${indexStyles.testimonials} text-[#464545] font-openSans text-[26px] font-[800] leading-[54px] mt-[5%] text-center xl:mt-[5vh]`}>Testimonials</h2>
+        <p className={`${indexStyles.users} px-3 mt-[1.5%] font-openSans font-[700] text-[18px] leading-[24px] text-center text-[#1a1919A6] xl:mt-[2vh] `}>See what some of our users are saying <br className='hidden md:block' /> about us</p>
+        <div className='flex flex-wrap h-[80%] justify-around mt-[10%] xl:mt-[15vh] '>
            {
             testimonials.map(testimonial=>{
               return <TestimonialCard {...testimonial}/>
