@@ -27,9 +27,9 @@
 
 /* our mission comments on 1400px screen and above */
 @media screen and (min-width: 1400px){
-    .missionComments {
+    /* .missionComments {
         padding-top: 15%;
-    }
+    } */
 }
 
 
@@ -107,7 +107,7 @@
         font-size: calc(16px + 0.5vw);
         line-height: calc(32px + 1vh);
     } 
-    .featHead{
+    .featHead, .mission{
         font-size: calc(32px + 0.8vw);
         line-height: calc(54px + 0.8vw);
     }
@@ -115,6 +115,17 @@
         font-size: calc(20px + 0.8vw);
         line-height: calc(51px + 0.8vw);
     }
+    .missionText{
+        font-size: calc(20px + 0.8vw);
+        line-height: calc(30.5px + 0.5vw);
+    }
+    .missionCommentsText{
+        font-size: calc(15px + 0.8vw);
+    }
+    /* .mission{
+        font-size: calc(32px + 0.8vw);
+        line-height: 54px calc(54px + 1vw);
+    } */
 
     /* .testimonialName{
         font-size: calc(20px + 0.4vw);
@@ -124,11 +135,7 @@
         line-height: calc(32px + 0.4vw);
     } 
 
-    .mission{
-        font-size: calc(32px + 1.1vw);
-        font-weight: 800;
-        line-height: 54px calc(54px + 1vw);
-    }
+    
     .missionText{
         font-size: calc(20px + 0.5vw);
         font-weight: 600;
@@ -180,9 +187,6 @@
         line-height: calc(32px + 0.5vw);
     }  */
 
-    .missionCommentsText{
-        font-size: calc(15px + 0.2vw);
-    }
     .businessText{
         font-size: calc(24px + 0.5vw);
         font-weight: 600;
@@ -197,6 +201,9 @@
     }
     .onboard{
         font-size: calc(24px + 0.8vw);
+    }
+    .missionCommentsText{
+        line-height: calc(44px + 2vh);
     }
 
 

@@ -116,20 +116,20 @@ function Index() {
       </div>
 
       {/* our mission */}
-      <div className={`${indexStyles.missionDiv} lg:h-[1300px] xl:h-[100vh] 2xl:h-[80vh] flex items-center justify-center`} id='about'>
+      <div className={`${indexStyles.missionDiv} lg:h-[1300px] xl:h-[100vh] flex items-center justify-center`} id='about'>
           <div className='w-[90%] xl:h-[80%] lg:h-[85%] flex justify-between mb-[10%] lg:mb-0 flex-col-reverse xl:flex-row px-1 py-8 lg:py-0'>
               <div className='bg-blue-800 w-full h-[300px] md:h-[500px] lg:h-[600px] xl:h-full xl:w-[50%] flex items-center justify-center rounded-[5px] mt-[3%] xl:mt-0'>
                  <div className='bg-[#9BE150] text-white text-[27px] h-[83px] w-[83px] rounded-full flex items-center justify-center'>
                     <i className="fa-solid fa-play"></i>
                  </div> 
               </div> 
-              <div className='xl:w-[48%] xl:mt-[10%] font-openSans'>
-                  <div className='h-[28%]'>
+              <div className='xl:w-[48%] xl:h-[80%] xl:self-end font-openSans'>
+                  <div className='h-[28%] flex flex-col justify-center'>
                       <h1 className={`text-[#464545] font-bold text-[22px] leading-[32px] md:text-[28px] md:leading-[40px] lg:text-[32px] text-center xl:text-start lg:leading-[54px] xl:ml-[10%] ${indexStyles.mission}`}>Know About Our Mission</h1>
                       <p className={`text-[#1A1919A6] text-[13px] leading-[20px] md:text-[16px] md:leading-[25px] lg:text-[20px] lg:leading-[30px] text-center xl:w-[90%] ${indexStyles.missionText}`}> <span className='text-[#9BE150]'> AppraiseMe </span> is a flexible and insightful <br /> platform</p>
                   </div>
-                  <div className={`${indexStyles.missionComments} mt-[2%] xl:mt-0 h-[72%] w-full pt-[5%] pb-[5%] flex flex-col justify-between `}>
-                      <p className={`w-4/5 text-center mx-auto text-[12px] leading-[200%] md:text-[15px] h-[80%] md:leading-[290%] ${indexStyles.missionCommentsText}`}>Our approach to performance appraisal is simple: leverage your employees’ skills while rewarding performance. AppraiseMe is a flexible and insightful platform that will help you grow your people so you can grow your business.</p>
+                  <div className={`${indexStyles.missionComments}  mt-[2%] xl:mt-0 h-[72%] w-full pt-[5%] pb-[5%] flex flex-col justify-between xl:pt-[8%] xl:pb-[8%]`}>
+                      <p className={`w-4/5 3xl:w-[90%] mx-auto text-[12px] leading-[200%] md:text-[15px] h-[80%] md:leading-[43.5px] 3xl:leading-[150%] ${indexStyles.missionCommentsText}`}>Our approach to performance appraisal is simple: leverage your employees’ skills while rewarding performance. AppraiseMe is a flexible and insightful platform that will help you grow your people so you can grow your business.</p>
                       <div className='flex self-center w-[40%] md:w-[15%] mt-[10%] justify-around'>
                           <div className='w-[18px] h-[20px] rounded-full bg-[#9BE150]'></div>
                           <div className='w-[18px] h-[20px] rounded-full bg-white'></div>
