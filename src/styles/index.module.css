@@ -81,7 +81,7 @@
     }
     .testimonies{
         font-size: calc(16px + 0.5vw);
-        line-height: calc(32px + 0.5vw);
+        line-height: calc(32px + 1vh);
     } 
 
     .users{
