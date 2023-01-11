@@ -91,21 +91,21 @@ function Index() {
     <div>
       <Heroe/>
       {/* Get on Board */}
-      <div className='h-[100px] md:h-[200px] xl:h-[25vh] bg-[#9BE150] flex items-center justify-center'>
-        <div className='lg:w-[90%] xl:w-[80%] w-full h-[40%] md:h-[70%] lg:h-[70%] text-[#ffffff] justify-between font-openSans font-bold lg:text-[24px] lg:leading-[40px] md:text-[20px] md:leading-[40px] text-[10px] leading-[20px] mx-auto flex flex-col text-center '>
+      <div className='h-[100px] md:h-[200px] xl:h-[auto] xl:py-[2%] bg-[#9BE150] flex items-center justify-center'>
+        <div className='lg:w-[90%] xl:w-[80%] w-full h-[40%] md:h-[70%] lg:h-[70%] text-[#ffffff] justify-between font-openSans font-bold lg:text-[24px] lg:leading-[40px] md:text-[20px] md:leading-[40px] text-[10px] leading-[20px] mx-auto flex flex-col text-center xl:leading-[50px] '>
           <p className={`text-center w-[75%] mx-auto ${indexStyles.onboard}`}>AppraiseMe aids objectivity in Employee Appraisals, Promotes and Rewards Systems.</p>
-          <p className={`text-center ${indexStyles.onboard}`}> Get Onboard NOW! </p>
+          <p className={`text-center ${indexStyles.onboard} `}> Get Onboard NOW! </p>
         </div>
       </div>
 
       {/* Our features */}
-    <div className=' bg-[#ffffff] lg:h-[1250px] xl:h-auto xl:mt-[10vh] xl:mb-[15vh] flex items-end mb-[10%] md:mb-[5%] lg:mb-[0%] my-[3%] lg:my-[0%] ' >
+    <div className='bg-[#ffffff] lg:h-[1250px] xl:h-auto xl:mt-[10vh] xl:mb-[15vh] flex items-end mb-[10%] md:mb-[5%] lg:mb-[0%] my-[3%] lg:my-[0%] ' >
         <div className='h-[90%] w-full mt-[10%] lg:mt-[0%] flex flex-col justify-aroundround'>
           <div className='text-center text-[#464545] font-openSans'>
-              <h1 className={` text-[26px] font-[800] leading-[54px] md:text-[28px] md:leading-[40px] lg:text-[32px] lg:leading-[54px] text-[#464545]  ${indexStyles.featHead}`}>Our Features</h1>
-              <p className={`text-[18px] leading-[31px]  md:text-[16px] md:leading-[40px] lg:leading-[51px] font-bold lg:text-[20px] ${indexStyles.featSubHead}`} >Explore some of our exciting features here</p>
+              <h1 className={` text-[26px] font-[800] leading-[54px] md:text-[28px] md:leading-[40px] lg:text-[32px] lg:leading-[54px] text-[#464545] ${indexStyles.featHead}`}>Our Features</h1>
+              <p className={`text-[18px] leading-[31px] md:text-[16px] md:leading-[40px] lg:leading-[51px] font-bold lg:text-[20px] ${indexStyles.featSubHead}`} >Explore some of our exciting features here</p>
           </div>
-          <div className={`flex py-8 lg:py-0 flex-col lg:mt-[10%] xl:mt-[3%] 2xl:mt-[5%] md:flex-row md:flex-wrap lg:h-[90%] xl:h-[70%] justify-around w-full ${indexStyles.featContainer}`}>
+          <div className={`flex py-8 lg:py-0 flex-col lg:mt-[10%] xl:mt-[8vh] 2xl:mt-[5%] md:flex-row md:flex-wrap lg:h-[90%] xl:h-[70%] justify-around w-full ${indexStyles.featContainer}`}>
             {
               features.map((feature) => {
                 return <FeatureCard {...feature}/>
@@ -141,7 +141,7 @@ function Index() {
       </div>
 
        {/* testimonials */}
-       <div className={` mb-[5%] 2xl:mt-[10vh] bg-yellow-500 flex flex-col ${indexStyles.testimonial} `}>
+       <div className={` mb-[5%] bg-yellow-500 flex flex-col ${indexStyles.testimonial} `}>
         <h2 className={`${indexStyles.testimonials} text-[#464545] font-openSans text-[26px] font-[800] leading-[54px] mt-[5%] text-center`}>Testimonials</h2>
         <p className={`${indexStyles.users} px-3 mt-[1.5%] font-openSans font-[700] text-[18px] leading-[31px] text-center text-[#1a1919A6] `}>See what some of our users are saying <br className='hidden md:block' /> about us</p>
         <div className='flex flex-wrap h-[80%] justify-around mt-[10%] '>

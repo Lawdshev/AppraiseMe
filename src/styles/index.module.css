@@ -107,6 +107,14 @@
         font-size: calc(16px + 0.5vw);
         line-height: calc(32px + 1vh);
     } 
+    .featHead{
+        font-size: calc(32px + 0.8vw);
+        line-height: calc(54px + 0.8vw);
+    }
+    .featSubHead{
+        font-size: calc(20px + 0.8vw);
+        line-height: calc(51px + 0.8vw);
+    }
 
     /* .testimonialName{
         font-size: calc(20px + 0.4vw);
@@ -115,14 +123,7 @@
         font-size: calc(16px + 0.4vw);
         line-height: calc(32px + 0.4vw);
     } 
-    .featHead{
-        font-size: calc(32px + 1.1vw);
-        line-height: calc(54px + 1vw);
-    }
-    .featSubHead{
-        font-size: calc(20px + 1.1vw);
-        line-height: calc(51px + 1vw);
-    }
+
     .mission{
         font-size: calc(32px + 1.1vw);
         font-weight: 800;
@@ -194,17 +195,20 @@
         font-size: calc(13px + 0.5vw);
         line-height: calc(19px + 1vh);
     }
+    .onboard{
+        font-size: calc(24px + 0.8vw);
+    }
 
 
 }
 
 @media screen and (min-width:2800px){
     .cardHead{
-        font-size: calc(15px + 0.7vw) ;
+        font-size: calc(16px + 0.7vw) ;
       
     }
     .cardText{
-        font-size:calc(16px + 0.7vw);
+        font-size:calc(15px + 0.7vw);
         line-height: 150% ;
     }
 } 
