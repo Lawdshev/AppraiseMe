@@ -24,7 +24,7 @@ function Navbar() {
                 <a href='#contact' className='text-[1.11vw] font-[700] hover:text-[#9BE150] active:text-[#9BE150] text-white'>Contact</a>
                 <a href='#faq' className='text-[1.11vw] font-[700] hover:text-[#9BE150] active:text-[#9BE150] text-white'>FAQ</a>
             </div>
-            <button className='text-[1.11vw] font-[700] w-[20%] h-[70%] bg-[#9BE150] text-white rounded-3xl hover:bg-[transparent] hover:border-[#9BE150] hover:border-[0.5px]'>Register</button>
+            <button className='text-[1.11vw] font-[700] w-[20%] h-[70%] bg-[#9BE150] text-white rounded-3xl hover:bg-[transparent] hover:border-[#9BE150] hover:border-[0.5px] xl:rounded-[5vw]'>Register</button>
       </div>
     </div>
     <div className=' bg-[#00000077] w-full h-[50px] md:hidden smCover'>
