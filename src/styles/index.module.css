@@ -167,15 +167,18 @@
         font-size: calc(16px + 0.5vw);
         line-height: calc(32px + 0.5vw);
     } 
-}
-@media screen and (min-width:3500px){
+}*/
+
+@media screen and (min-width:2800px){
     .cardHead{
         font-size: calc(15px + 0.7vw) ;
+      
     }
     .cardText{
         font-size:calc(16px + 0.7vw);
+        line-height: 150% ;
     }
-} */
+} 
 
 
 @media screen and (orientation:landscape) and (max-width: 900px){
