@@ -141,7 +141,7 @@ function Index() {
       </div>
 
        {/* testimonials */}
-       <div className={` mb-[5%] 2xl:h-[100vh] flex flex-col ${indexStyles.testimonial} `}>
+       <div className={` mb-[5%] 2xl:mt-[10vh] bg-yellow-500 flex flex-col ${indexStyles.testimonial} `}>
         <h2 className={`${indexStyles.testimonials} text-[#464545] font-openSans text-[26px] font-[800] leading-[54px] mt-[5%] text-center`}>Testimonials</h2>
         <p className={`${indexStyles.users} px-3 mt-[1.5%] font-openSans font-[700] text-[18px] leading-[31px] text-center text-[#1a1919A6] `}>See what some of our users are saying <br className='hidden md:block' /> about us</p>
         <div className='flex flex-wrap h-[80%] justify-around mt-[10%] '>
