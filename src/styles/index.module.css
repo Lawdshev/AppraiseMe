@@ -73,7 +73,7 @@
     }
     .cardText{
         font-size:calc(16px + 0.3vw);
-        line-height: 200%;
+        line-height: calc(31.5px + 0.5vh);
     }
     .testimonials{
         font-size: calc(36px + 1vw);

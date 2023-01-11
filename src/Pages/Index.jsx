@@ -99,7 +99,7 @@ function Index() {
       </div>
 
       {/* Our features */}
-    <div className=' bg-[#ffffff] lg:h-[1250px] xl:h-[100vh] flex items-end mb-[10%] md:mb-[5%] lg:mb-[0%] my-[3%] lg:my-[0%] ' >
+    <div className=' bg-[#ffffff] lg:h-[1250px] xl:h-auto xl:mt-[10vh] xl:mb-[15vh] flex items-end mb-[10%] md:mb-[5%] lg:mb-[0%] my-[3%] lg:my-[0%] ' >
         <div className='h-[90%] w-full mt-[10%] lg:mt-[0%] flex flex-col justify-aroundround'>
           <div className='text-center text-[#464545] font-openSans'>
               <h1 className={` text-[26px] font-[800] leading-[54px] md:text-[28px] md:leading-[40px] lg:text-[32px] lg:leading-[54px] text-[#464545]  ${indexStyles.featHead}`}>Our Features</h1>
