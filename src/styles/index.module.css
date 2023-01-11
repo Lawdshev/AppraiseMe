@@ -25,20 +25,12 @@
  color: rgba(26, 25, 25, 0.49);
 }
 
-/* our mission comments on 1400px screen and above */
-@media screen and (min-width: 1400px){
-    /* .missionComments {
-        padding-top: 15%;
-    } */
-}
-
 
 
 @media screen and (max-width:640px){
     .businessText{
         font-size: 16px;
         font-weight: 600;
-        /* line-height: 25px; */
         letter-spacing: 0em;
         text-align: left;
     }
@@ -48,7 +40,6 @@
     .businessText{
         font-size: 20px;
         font-weight: 600;
-        /* line-height: 25px; */
         letter-spacing: 0em;
         text-align: left;
     }
@@ -58,7 +49,6 @@
     .businessText{
         font-size: 20px;
         font-weight: 600;
-        /* line-height: 25px; */
         letter-spacing: 0em;
         text-align: left;
     }
@@ -125,64 +115,8 @@
     .testimonialName{
         font-size: calc(20px + 0.5vw);
     }
-
-    /* .testimonialName{
-        font-size: calc(20px + 0.4vw);
-    }
-    .testimonies{
-        font-size: calc(16px + 0.4vw);
-        line-height: calc(32px + 0.4vw);
-    } 
-
-    
-    .missionText{
-        font-size: calc(20px + 0.5vw);
-        font-weight: 600;
-        line-height: calc(31px + 0.4vw);
-    }
-    .missionCommentsText{
-        font-size: calc(15px + 0.5vw);
-        font-weight: 600;
-        line-height: calc(44px + 0.4vw);
-    }
-    .businessText{
-        font-size: calc(24px + 0.5vw);
-        font-weight: 600;
-        line-height: calc(32px + 1vw);
-    }
-    .blogHead{
-        font-size: calc(36px + 0.8vw);
-        font-weight: 800;
-        line-height: calc(54px + 0.8vw);
-    }
-    .blogSubHead{
-        font-size: calc(24px + 0.5vw);
-        font-weight: 700;
-        line-height: calc(30.5px + 1.1vw);
-    }
-    .blogCardHead{
-        font-size: calc(16px + 0.4vw);
-        font-weight: 700;
-        line-height: calc(24.13px + 0.4vw);
-    }
-    .blogCardText{
-        font-size: calc(13px + 0.5vw);
-        font-weight: 500;
-        line-height: calc(19.6px + 1vw);
-    } */
 }
 @media screen and (min-width:2200px){
-    /* .cardHead{
-        font-size: calc(15px + 0.5vw) ;
-    }
-    .cardText{
-        font-size:calc(16px + 0.5vw);
-    }
-    
-    .testimonies{
-        font-size: calc(16px + 0.5vw);
-        line-height: calc(32px + 0.5vw);
-    }  */
 
     .businessText{
         font-size: calc(24px + 0.5vw);
