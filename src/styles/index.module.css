@@ -96,6 +96,13 @@
         line-height: calc(51px + 1vw);
         
     }
+    .blogCardHead{
+        font-size: calc(16px + 0.3vw) ;
+    }
+    .blogCardText{
+        font-size: calc(13px + 0.3vw);
+        line-height: calc(19px + 1.5vh);
+    }
 
     /* .testimonialName{
         font-size: calc(20px + 0.4vw);
@@ -175,6 +182,13 @@
         font-size: calc(24px + 0.5vw);
         font-weight: 600;
         line-height: calc(35px + 2.5vh);
+    }
+    .blogCardHead{
+        font-size: calc(16px + 0.5vw) ;
+    }
+    .blogCardText{
+        font-size: calc(13px + 0.5vw);
+        line-height: calc(19px + 1vh);
     }
 
 
