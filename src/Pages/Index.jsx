@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef,useState } from 'react';
 import blg1 from '../assets/Rectangle 20.png'
 import blg2 from '../assets/Rectangle 21.png'
 import blg3 from '../assets/Rectangle 22.png'
@@ -16,7 +16,9 @@ import feat2 from '../assets/Vector (3).png';
 import feat3 from '../assets/Vector (4).png';
 import feat4 from '../assets/Vector (5).png';
 import TestimonialCard from '../Components/TestimonialCard';
-import Heroe from '../Components/Heroe/Heroe'
+import Heroe from '../Components/Heroe/Heroe';
+import video from '../assets/APPRAISE ME.mkv';
+import poster from '../assets/pexels-cottonbro-5083397 1.png'
 
 //testimonials
 const testimonials=[
@@ -86,6 +88,25 @@ const blogs =[
  ]
 
 function Index() {
+  const [played,setPlayed] = useState(false);
+  
+     const videoRef = useRef();
+     const handlePlay = () => {
+         videoRef.current.play();
+         setPlayed(true)
+         if(videoRef.current.played){
+          console.log('playing')
+         }
+
+     }
+     const handlePause = () => {
+         videoRef.current.pause();
+         setPlayed(false)
+         if(videoRef.current.paused){
+          console.log('paused')
+         }
+     }
+
   return (
     <div>
       <Heroe/>
@@ -117,11 +138,25 @@ function Index() {
       {/* our mission */}
       <div className={`${indexStyles.missionDiv} lg:h-[1300px] xl:h-[100vh] flex items-center justify-center`} id='about'>
           <div className='w-[90%] xl:h-[80%] lg:h-[85%] flex justify-between mb-[10%] lg:mb-0 flex-col-reverse xl:flex-row px-1 py-8 lg:py-0'>
-              <div className='bg-blue-800 w-full h-[300px] md:h-[500px] lg:h-[600px] xl:h-full xl:w-[50%] flex items-center justify-center rounded-[5px] mt-[3%] xl:mt-0'>
-                 <div className='bg-[#9BE150] text-white text-[27px] h-[83px] w-[83px] rounded-full flex items-center justify-center'>
-                    <i className="fa-solid fa-play"></i>
-                 </div> 
+              <div className=' w-full h-[300px] md:h-[500px] lg:h-[600px] xl:h-full xl:w-[50%] flex items-center justify-center rounded-[5px] mt-[3%] xl:mt-0 relative vidDiv'>
+                   <video width="100%" height="100%" className='overflow-hidden'
+                      src={video} poster={poster} ref={videoRef} onClick={
+                        ()=>{
+                          played? handlePause() : handlePlay()
+                        }
+                      } >
+                    </video>
+                      {
+                         !played ?
+                         
+                         <div className='h-[67px] self-center w-[67px] rounded-full z-20 flex items-center justify-center absolute top-[40%] bg-[#9BE150]'>
+                          <i className='fa solid fa-play text-[27px] text-white' onClick={handlePlay}></i>
+                       </div>  
+                          : 
+                        <div className='h-[67px] self-center w-[67px] rounded-full z-20 items-center justify-center absolute top-[40%] bg-[#9BE150] hidden pause '><i className='fa solid fa-pause text-[27px] text-white' onClick={handlePause}></i></div>
+                      }  
               </div> 
+              
               <div className='xl:w-[48%] xl:h-[80%] xl:self-end font-openSans'>
                   <div className='h-[28%] flex flex-col justify-center'>
                       <h1 className={`text-[#464545] font-bold text-[22px] leading-[32px] md:text-[28px] md:leading-[40px] lg:text-[32px] text-center xl:text-start lg:leading-[54px] xl:ml-[10%] ${indexStyles.mission}`}>Know About Our Mission</h1>

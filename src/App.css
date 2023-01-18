@@ -13,3 +13,32 @@ body,p,h1, h2, h3, h4, h5, h6, div,Link,span{
     margin: 0;
     padding: 0;
 }
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 18rem;
+    margin: auto;
+  }
+  
+  .controlsIcon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  
+  .controlsIcon--small {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
+  .vidDiv:hover > .pause {
+    opacity: 0.7;
+    display: flex;
+  }
