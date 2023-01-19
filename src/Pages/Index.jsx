@@ -18,7 +18,8 @@ import feat4 from '../assets/Vector (5).png';
 import TestimonialCard from '../Components/TestimonialCard';
 import Heroe from '../Components/Heroe/Heroe';
 import video from '../assets/APPRAISE ME.mkv';
-import poster from '../assets/pexels-cottonbro-5083397 1.png'
+import poster from '../assets/pexels-cottonbro-5083397 1.png';
+import  CarouselSlide from '../Components/Slider';
 
 //testimonials
 const testimonials=[
@@ -163,12 +164,13 @@ function Index() {
                       <p className={`text-[#1A1919A6] text-[13px] leading-[20px] md:text-[16px] md:leading-[25px] lg:text-[20px] lg:leading-[30px] text-center xl:w-[90%] ${indexStyles.missionText}`}> <span className='text-[#9BE150]'> AppraiseMe </span> is a flexible and insightful <br /> platform</p>
                   </div>
                   <div className={`${indexStyles.missionComments}  mt-[2%] xl:mt-0 h-[72%] w-full pt-[5%] pb-[5%] flex flex-col justify-between xl:pt-[8%] xl:pb-[8%]`}>
-                      <p className={`w-4/5 3xl:w-[90%] mx-auto text-[12px] leading-[200%] md:text-[15px] h-[80%] md:leading-[43.5px] 3xl:leading-[150%] ${indexStyles.missionCommentsText}`}>Our approach to performance appraisal is simple: leverage your employees’ skills while rewarding performance. AppraiseMe is a flexible and insightful platform that will help you grow your people so you can grow your business.</p>
+                      {/* <p className={`w-4/5 3xl:w-[90%] mx-auto text-[12px] leading-[200%] md:text-[15px] h-[80%] md:leading-[43.5px] 3xl:leading-[150%] ${indexStyles.missionCommentsText}`}>Our approach to performance appraisal is simple: leverage your employees’ skills while rewarding performance. AppraiseMe is a flexible and insightful platform that will help you grow your people so you can grow your business.</p>
                       <div className='flex self-center w-[40%] md:w-[15%] mt-[10%] justify-around'>
                           <div className='w-[18px] h-[20px] rounded-full bg-[#9BE150]'></div>
                           <div className='w-[18px] h-[20px] rounded-full bg-white'></div>
                           <div className='w-[18px] h-[20px] rounded-full bg-white'></div>
-                      </div>
+                      </div> */}
+                      < CarouselSlide/>
                   </div>
               </div>
           </div> 
